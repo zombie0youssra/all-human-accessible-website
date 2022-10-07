@@ -1,35 +1,44 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# The Client Case
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Ontwerp en maak een toegankelijk(e) component / website voor een bedrijf en presenteer het resultaat.
 
-## Inhoudsopgave
+## Context
+Deze leertaak hoort bij sprint 3 All Human. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## Doel van deze opdracht
+Je leert hoe je aan de hand van een user story een (gedeelte van een) website toegankelijk kan ontwerpen en bouwen.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Werkwijze
+Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
+De development lifecycle kent de volgende stappen:
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+1. Analyseren - bijvoorbeeld: grip krijgen op een taak door gesprekken met een opdrachtgever, schrijven van een debriefing, maken van een todo lijst, inventarisatie van bestaande informatie, overzicht creëren, plannen, definition of done etc.
+2. Ontwerpen - bijvoorbeeld: het maken van idee-schetsen, customer journey, breakdown chart, wireflows, navigatiestructuur en layout.
+3. Bouwen - bijvoorbeeld: toepassen van webtechnologie (HTML, CSS, JS), gebruik van tooling, werken volgens conventies en wetgeving, documenteren en bijhouden van een changelog.
+4. Integreren - bijvoorbeeld: publiceren, live zetten, uploaden naar de server, toevoegen in een bestaand systeem, ftp-en.
+5. Testen - bijvoorbeeld: Unit testing (TDD), System test, User test, device lab test, A\B testing.
 
-## Installatie
+### Aanpak
+1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
+2. Fork deze leertaak
+3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
+4. Documenteer je proces a.h.v de development life cycle
+5. En schrijf een goede readme
 
-## Gebruik
+## Criteria
 
-## Bronnen
+De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.
 
-## Licentie
+Voor deze leertaak gelden de gedragscriteria voor sprint 2: 
+* Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
+* Je realiseert een oplossing voor een opdrachtgever
+* Je draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback
+* Je analyseert een vraag en volgt de aangeboden oplossingsrichting
+* Je schetst om gedachten en processen te verkennen
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+Deze opdracht is done als:
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
+- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
+- [ ] de website staat op Github en heeft een live url
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+
