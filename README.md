@@ -1,6 +1,6 @@
 # The Client Case
 
-Ontwerp en maak een toegankelijk(e) component / website voor een bedrijf en presenteer het resultaat.
+ Ontwerp en maak voor een opdrachtgever een component/pagina/site WCAG proof
 
 ## Context
 Deze leertaak hoort bij sprint 3 All Human. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
