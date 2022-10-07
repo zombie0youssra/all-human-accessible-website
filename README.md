@@ -27,18 +27,17 @@ De development lifecycle kent de volgende stappen:
 
 ## Criteria
 
-De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.
+De focus van deze sprint ligt op het toegankelijk maken van een (gedeelte van een) website.
 
 Voor deze leertaak gelden de gedragscriteria voor sprint 2: 
-* Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
-* Je realiseert een oplossing voor een opdrachtgever
-* Je draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback
-* Je analyseert een vraag en volgt de aangeboden oplossingsrichting
-* Je schetst om gedachten en processen te verkennen
+* Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe
+* Kan binnen de squad ontwerpkeuzes, eigen ideeën en producten begrijpelijk verwoorden
+* Gebruikt aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving om een passende oplossing voor een opdrachtgever te realiseren
+* Benoemt behandelde internationale ontwikkelingen in het vakgebied
 
 Deze opdracht is done als:
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
-- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
+- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki 
 - [ ] de website staat op Github en heeft een live url
 
 
