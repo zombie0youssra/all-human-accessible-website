@@ -3,7 +3,7 @@
  Ontwerp en maak voor een opdrachtgever een component/pagina/site WCAG proof
 
 ## Context
-Deze leertaak hoort bij sprint 3 All Human. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
+Deze leertaak hoort bij sprint 3: All Human. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website toegankelijk kan ontwerpen en bouwen.
