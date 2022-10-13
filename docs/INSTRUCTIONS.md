@@ -1,14 +1,17 @@
 # The Client Case
 
- Ontwerp en maak voor een opdrachtgever een component/pagina/site WCAG proof
-
+Maak op basis van een nieuwe of bestaande user-story een website toegankelijk volgens WCAG richtlijnen.
+ 
 ## Context
+
 Deze leertaak hoort bij sprint 3: All Human. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
+
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website toegankelijk kan ontwerpen en bouwen.
 
 ## Werkwijze
+
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt.
 De development lifecycle kent de volgende stappen:
 
@@ -21,7 +24,7 @@ De development lifecycle kent de volgende stappen:
 ### Aanpak
 1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
 2. Fork deze leertaak
-3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
+3. Kopieer/plak de user story waar jij aan gaat werken naar de Readme van de geforkte repository, dit ga je ontwerpen en maken
 4. Documenteer je proces a.h.v de development life cycle
 5. En schrijf een goede readme
 
