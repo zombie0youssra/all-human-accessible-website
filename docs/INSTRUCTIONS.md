@@ -8,7 +8,7 @@ Deze leertaak hoort bij sprint 3: All Human. Dit is een opdracht die je individu
 
 ## Doel van deze opdracht
 
-Je leert hoe je aan de hand van een user story een (gedeelte van een) website toegankelijk kan ontwerpen, bouwen en testen.
+Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwen en testen.
 
 ## Werkwijze
 
