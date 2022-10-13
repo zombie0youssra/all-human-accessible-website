@@ -1,4 +1,4 @@
-# The Client Case
+# All Human - Accessible Website
 
 Maak op basis van een bestaande user-story een website toegankelijk volgens WCAG richtlijnen.
  
