@@ -42,10 +42,10 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 * Benoemt behandelde internationale ontwikkelingen in het vakgebied
 
 Deze opdracht is done als:
-- [ ] Je hebt een _Keyboard_ navigatie check gedaan en problemen verholpen
-- [ ] Je hebt een _Screenreader_ check gedaan en problemen verholpen
-- [ ] Je hebt _Interactive elements_ check gedaan en problemen verholpen
-- [ ] Je hebt _Headings and Landmarks_ check gedaan en problemen verholpen
-- [ ] Je hebt _Color/contrast_ check gedaan en problemen verholpen
+- [ ] Je hebt een _Keyboard_ navigatie check gedaan en gevonden problemen verholpen
+- [ ] Je hebt een _Screenreader_ check gedaan en gevonden problemen verholpen
+- [ ] Je hebt _Interactive elements_ check gedaan en gevonden problemen verholpen
+- [ ] Je hebt _Headings and Landmarks_ check gedaan en gevonden problemen verholpen
+- [ ] Je hebt _Color/contrast_ check gedaan en gevonden problemen verholpen
 - [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki 
 - [ ] de website staat op Github en heeft een live url
