@@ -1,6 +1,6 @@
 # The Client Case
 
-Maak op basis van een nieuwe of bestaande user-story een website toegankelijk volgens WCAG richtlijnen.
+Maak op basis van een bestaande user-story een website toegankelijk volgens WCAG richtlijnen.
  
 ## Context
 
@@ -22,11 +22,14 @@ De development lifecycle kent de volgende stappen:
 5. Testen - bijvoorbeeld: Unit testing (TDD), System test, User test, device lab test, A\B testing.
 
 ### Aanpak
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
-2. Fork deze leertaak
-3. Kopieer/plak de user story waar jij aan gaat werken naar de Readme van de geforkte repository, dit ga je ontwerpen en maken
-4. Documenteer je proces a.h.v de development life cycle
-5. En schrijf een goede readme
+
+1. Fork en Clone deze leertaak
+2. Kopieer de code van de user story waar je aan hebt gewerkt naar deze leertaak
+3. Schrijf de user story waar jij aan gaat werken in de Readme van de deze leertaak, dit is wat je gaat ontwerpen, maken en testen
+4. Verwerk de feedback die je bij de Sprint Review vande vorige sprint hebt gekregen
+5. Voer verschillende toegankelijkheid tests uit op de bestaande code en verbeter de problemen
+6. Documenteer je proces a.h.v de development life cycle
+7. En schrijf een goede readme
 
 ## Criteria
 
