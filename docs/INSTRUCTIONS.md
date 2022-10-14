@@ -26,7 +26,7 @@ De development lifecycle kent de volgende stappen:
 1. Fork en Clone deze leertaak
 2. Kopieer de code van de user story waar je aan hebt gewerkt naar deze leertaak
 3. Schrijf de user story waar jij aan gaat werken in de Readme van deze leertaak, dit is wat je gaat ontwerpen, maken en testen
-4. Verwerk de feedback die je bij de Sprint Review vande vorige sprint hebt gekregen
+4. Verwerk de feedback die je bij de Sprint Review van de vorige sprint hebt gekregen
 5. Voer verschillende toegankelijkheid tests uit op de bestaande code en verbeter de problemen
 6. Documenteer je proces a.h.v de development life cycle
 7. En schrijf een goede readme
