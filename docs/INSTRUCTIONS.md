@@ -39,7 +39,7 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 * Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe
 * Kan binnen de squad ontwerpkeuzes, eigen ideeën en producten begrijpelijk verwoorden
 * Gebruikt aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving om een passende oplossing voor een opdrachtgever te realiseren
-* Benoemt behandelde internationale ontwikkelingen in het vakgebied
+* ~~Benoemt behandelde internationale ontwikkelingen in het vakgebied~~
 
 Deze opdracht is done als:
 - [ ] Je hebt een _keyboard_ navigatie check gedaan en gevonden problemen verholpen
