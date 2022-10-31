@@ -1,0 +1,194 @@
+
+body{
+    font-family: 'Sen', sans-serif;
+    margin: 0%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.2fr 4fr 0.2fr;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+
+}
+
+
+
+
+header{
+    grid-area: header;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+section{
+    float: right;
+}
+
+.account{
+    display: flex;
+    color: white;
+    background-color: red;
+    border: 1.5px solid white;
+    border-radius: 2em;
+    margin-top: 0.5em;
+}
+
+
+.loguit{
+    display: flex;
+    color: white;
+    background-color:red;
+    border: 1.5px solid white;
+    border-radius: 2em;
+
+}
+
+
+.pages{
+    grid-area: header;
+    padding-top: 6.5em;
+
+}
+
+.list{
+    display:block;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s ease;
+
+}
+
+
+main{
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    grid-area: main;
+}
+
+p {
+    padding-top: 0.5em;
+}
+.recommended{
+    height: 20em;
+    width: 26em;
+    margin-left: 2em;
+    border: solid 0.3em red;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.titelaan {
+    margin-left: 4.8em;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.carouselbox {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    margin-left: 0.1em;
+
+
+}
+
+
+.carousel {
+    
+}
+
+.carouselimg {
+    padding: 0.5em;
+    height: 10em;
+    width: 6em;
+    border-radius: 1em;
+}
+
+footer{
+    grid-area: footer;
+    background-color: black;
+}
+
+.mijnboeken{
+    height: 10em;
+    width: 26em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    background-color:lightgrey;
+    border-radius: 3em;
+}
+
+.text{
+align-content: center;
+text-align: center;
+
+}
+    
+
+.boekenlijst{
+    height: 10em;
+    width: 26em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    background-color:lightgray;
+    border-radius: 3em;
+
+}
+
+.leengeschiedenis{
+    height: 10em;
+    width: 26em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    background-color: lightgrey;
+    border-radius: 3em;
+}
+
+
+
+@media screen and (min-width: 590px) {
+
+ main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: main;
+ }
+
+ .mijnboeken{
+    height: 20.6em;
+    width: 45em;
+    margin-top: 0%;
+ }
+
+ .text{
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    }
+ }
+
+
+
