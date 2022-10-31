@@ -89,7 +89,7 @@ p {
     padding-top: 0.5em;
 }
 .recommended{
-    height: 20em;
+    height: 25em;
     width: 26em;
     margin-left: 2em;
     border: solid 0.3em red;
@@ -168,7 +168,12 @@ text-align: center;
 
 
 @media screen and (min-width: 590px) {
+ 
+header{
+    grid-area: header;
 
+
+}
  main{
     display: flex;
     flex-direction: row;
