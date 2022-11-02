@@ -14,13 +14,12 @@ body{
 }
 
 
-
-
 header{
     grid-area: header;
 }
 
 .logo {
+    margin-left: 3em;
     height: 100px;
     width: 200px;
 }
@@ -88,12 +87,6 @@ main{
 p {
     padding-top: 0.5em;
 }
-.recommended{
-    height: 22.6em;
-    width: 26em;
-    margin-left: 2em;
-    overflow: hidden;
-}
 
 .titelaan {
     margin-left: 4.8em;
@@ -102,25 +95,59 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.carouselbox {
+.slider {
+    width: 20em;
+    height: 200px;
+    position: relative;
+    margin: 2em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider .slide {
     display: flex;
-    align-content: center;
-    flex-direction: row;
-    margin-left: 0.1em;
-
-
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
 }
 
-
-.carousel {
-    
-}
-
-.carouselimg {
-    padding: 0.5em;
+.slider .item {
+    margin-right: 1em;
     height: 10em;
-    width: 6em;
 }
+
+
+.ctrl {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+}
+
+.ctrl-btn.pro-prev {
+    left: 0;
+}
+
+.ctrl-btn.pro-next {
+    right: 0;
+}
+
 
 footer{
     grid-area: footer;
@@ -138,13 +165,15 @@ footer{
 }
 
 .geleendeboeken{
+    display: none;
 
 }
 
 .text{
 align-content: center;
 text-align: center;
-margin-top: 3em;
+margin-top: 2em;
+font-size: 25px;
 
 }
 
@@ -186,6 +215,7 @@ header{
     height: 15em;
     width: 10em;
     margin-left: 1em;
+    display: inline;
     
 }
 
