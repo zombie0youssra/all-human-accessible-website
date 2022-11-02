@@ -89,16 +89,15 @@ p {
     padding-top: 0.5em;
 }
 .recommended{
-    height: 25em;
+    height: 22.6em;
     width: 26em;
     margin-left: 2em;
-    border: solid 0.3em red;
-    border-radius: 2em;
     overflow: hidden;
 }
 
 .titelaan {
     margin-left: 4.8em;
+    margin-top: 0;
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
@@ -121,7 +120,6 @@ p {
     padding: 0.5em;
     height: 10em;
     width: 6em;
-    border-radius: 1em;
 }
 
 footer{
@@ -187,7 +185,7 @@ header{
 .geleendeboeken{
     height: 15em;
     width: 10em;
-    margin-left: 3em;
+    margin-left: 1em;
     
 }
 
