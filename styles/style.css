@@ -136,34 +136,20 @@ footer{
     margin-left: 2em;
     background-color:lightgrey;
     border-radius: 3em;
+    overflow: hidden;
+}
+
+.geleendeboeken{
+
 }
 
 .text{
 align-content: center;
 text-align: center;
-
-}
-    
-
-.boekenlijst{
-    height: 10em;
-    width: 26em;
-    margin-top: 1.5em;
-    margin-left: 2em;
-    background-color:lightgray;
-    border-radius: 3em;
+margin-top: 3em;
 
 }
 
-.leengeschiedenis{
-    height: 10em;
-    width: 26em;
-    margin-top: 1.5em;
-    margin-left: 2em;
-    margin-bottom: 1em;
-    background-color: lightgrey;
-    border-radius: 3em;
-}
 
 
 
@@ -171,6 +157,7 @@ text-align: center;
  
 header{
     grid-area: header;
+    
 
 
 }
@@ -182,14 +169,44 @@ header{
  }
 
  .mijnboeken{
-    height: 20.6em;
+    height: 22em;
     width: 45em;
     margin-top: 0%;
+    
+
  }
 
+.geleendecontainer{
+    height: 20em;
+    width: 42em;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.geleendeboeken{
+    height: 15em;
+    width: 10em;
+    margin-left: 3em;
+    
+}
+
+.geleendeboek{
+    height: 14em;
+    width: 8em;
+    margin-left: 1em;
+}
+
+.inleverdatum{
+    font-size: 16px;
+    margin-left: 1em;
+    margin-top: 0%;
+}
+
  .text{
-    align-content: center;
-    text-align: center;
+    text-align: start;
+    margin-top: 0%;
+    margin-left: 2em;
     font-size: 25px;
     color: rgb(0, 0, 0);
     }
