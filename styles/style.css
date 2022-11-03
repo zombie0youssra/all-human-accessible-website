@@ -85,6 +85,10 @@ li a:hover{
 
 }
 
+.links{
+    text-decoration: none;
+    color: black;
+}
 
 main{
     display: flex;
@@ -191,10 +195,6 @@ footer{
 }
 
 
-.geleendeboeken{
-    display: none;
-
-}
 
 
 .text{
@@ -259,65 +259,78 @@ header{
  }
 
 
- .mijnboeken{
-    height: 22em;
-    width: 45em;
-    margin-top: 0%;
-    
+ .mijnboeken {
+     height: 22em;
+     width: 45em;
+     margin-top: 0%;
+ }
+
+
+ .boekreservering {
+     height: 10em;
+     width: 26em;
+     margin-top: 1em;
+     margin-left: 2em;
+     border-radius: 3em;
+ }
+
+ .e-books {
+     height: 10em;
+     width: 26em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 2em;
+     border-radius: 3em;
+ }
+ }
+
+ .geleendecontainer {
+     height: 20em;
+     width: 42em;
+     margin-top: 0%;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .geleendeboeken {
+     height: 15em;
+     width: 10em;
+     margin-left: 1em;
 
  }
 
-.geleendecontainer{
-    height: 20em;
-    width: 42em;
-    margin-top: 0%;
-    display: flex;
-    flex-direction: row;
-}
-
-.geleendeboeken{
-    height: 15em;
-    width: 10em;
-    margin-left: 1em;
-    display: inline;
-    
-}
-
-.geleendeboek{
-    height: 14em;
-    width: 8em;
-    margin-left: 1em;
-}
-
-.inleverdatum{
-    font-size: 16px;
-    margin-left: 1em;
-    margin-top: 0%;
-}
-
- .text{
-    text-align: start;
-    margin-top: 0%;
-    margin-left: 2em;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    }
+ .geleendeboek {
+     height: 14em;
+     width: 8em;
+     margin-left: 1em;
  }
+
+ .inleverdatum {
+     font-size: 16px;
+     margin-left: 1em;
+     margin-top: 0%;
+ }
+
+ .text {
+     text-align: start;
+     margin-top: 0%;
+     margin-left: 2em;
+     font-size: 25px;
+     color: rgb(0, 0, 0);
+ }
+ 
 
 
 /* groot scherm */
 @media screen and (min-width: 1400px){
-body{
-}
 
 .boekreservering {
-    height: 10em;
-    width: 26em;
-    margin-top: 1em;
-    margin-left: 2em;
-    background-color: lightgrey;
-    border-radius: 3em;
-    overflow: hidden;
+     height: 10em;
+     width: 26em;
+     margin-top: 1em;
+     margin-left: 2em;
+     border-radius: 3em;
+     overflow: hidden;
 
 }
 
@@ -329,6 +342,21 @@ body{
      overflow-x: scroll;
      overflow-y: hidden;
  }
+ .boekreservering {
+     height: 10em;
+     width: 26em;
+     margin-top: 1em;
+     margin-left: 2em;
+     border-radius: 3em;
+ }
 
+ .e-books {
+     height: 10em;
+     width: 26em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 2em;
+     border-radius: 3em;
+ }
 
 }
