@@ -151,7 +151,7 @@ p {
 .ctrl-btn {
     padding: 20px 20px;
     min-width: 50px;
-    background-color: rgb(227, 227, 227);
+    background-color: rgba(227, 227, 227, 0.671);
     border: none;
     font-weight: 600;
     text-align: center;
@@ -161,6 +161,7 @@ p {
     top: 50%;
     margin-top: -27.5px;
 }
+
 
 
 .ctrl-btn.pro-prev {
@@ -211,6 +212,16 @@ font-size: 25px;
     margin-left: 2em;
     background-color: lightgrey;
     border-radius: 3em;
+}
+
+.e-books {
+    height: 10em;
+    width: 26em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    background-color: lightgrey;
+    border-radius: 3em;
 
 }
 
@@ -230,6 +241,23 @@ header{
     flex-wrap: wrap;
     grid-area: main;
  }
+
+ .titelaan {
+     margin-left: 22em;
+     margin-top: 0;
+     font-size: 25px;
+     color: rgb(0, 0, 0);
+ }
+
+ .slider {
+     width: 75em;
+     height: 200px;
+     position: relative;
+     margin: 2em;
+     overflow-x: scroll;
+     overflow-y: hidden;
+ }
+
 
  .mijnboeken{
     height: 22em;
@@ -283,8 +311,8 @@ body{
 }
 
 .boekreservering {
-    height: 25em;
-    width: 10em;
+    height: 10em;
+    width: 26em;
     margin-top: 1em;
     margin-left: 2em;
     background-color: lightgrey;
@@ -292,6 +320,15 @@ body{
     overflow: hidden;
 
 }
+
+ .slider {
+     width: 82em;
+     height: 200px;
+     position: relative;
+     margin: 2em;
+     overflow-x: scroll;
+     overflow-y: hidden;
+ }
 
 
 }
