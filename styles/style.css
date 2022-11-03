@@ -18,14 +18,18 @@ header{
     grid-area: header;
 }
 
+
 .logo {
     margin-left: 3em;
     height: 100px;
     width: 200px;
 }
+
+
 section{
     float: right;
 }
+
 
 .account{
     display: flex;
@@ -53,6 +57,7 @@ section{
 
 }
 
+
 .list{
     display:block;
     font-size: 20px;
@@ -62,13 +67,17 @@ section{
     
 }
 
+
 ul{
     list-style-type: none;
 }
 
+
+
 li{
     float: left;
 }
+
 
 li a:hover{
     color: rgb(255, 0, 0);
@@ -84,19 +93,23 @@ main{
     grid-area: main;
 }
 
+
 p {
     padding-top: 0.5em;
 }
 
+
+
 .titelaan {
-    margin-left: 4.8em;
+    margin-left: 6em;
     margin-top: 0;
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
 
+
 .slider {
-    width: 20em;
+    width: 26em;
     height: 200px;
     position: relative;
     margin: 2em;
@@ -104,9 +117,11 @@ p {
     overflow-y: hidden;
 }
 
+
 .slider::-webkit-scrollbar {
     display: none;
 }
+
 
 .slider .slide {
     display: flex;
@@ -115,9 +130,15 @@ p {
     transition: 0.3s left ease-in-out;
 }
 
+
 .slider .item {
     margin-right: 1em;
     height: 10em;
+}
+
+
+.slider .item:hover{
+    height: 12em;
 }
 
 
@@ -125,6 +146,7 @@ p {
     text-align: center;
     margin-top: 5px;
 }
+
 
 .ctrl-btn {
     padding: 20px 20px;
@@ -140,9 +162,11 @@ p {
     margin-top: -27.5px;
 }
 
+
 .ctrl-btn.pro-prev {
     left: 0;
 }
+
 
 .ctrl-btn.pro-next {
     right: 0;
@@ -154,20 +178,23 @@ footer{
     background-color: black;
 }
 
+
 .mijnboeken{
     height: 10em;
     width: 26em;
-    margin-top: 1.5em;
+    margin-top: 0%;
     margin-left: 2em;
     background-color:lightgrey;
     border-radius: 3em;
     overflow: hidden;
 }
 
+
 .geleendeboeken{
     display: none;
 
 }
+
 
 .text{
 align-content: center;
@@ -177,6 +204,15 @@ font-size: 25px;
 
 }
 
+.boekreservering{
+    height: 10em;
+    width: 26em;
+    margin-top: 1em;
+    margin-left: 2em;
+    background-color: lightgrey;
+    border-radius: 3em;
+
+}
 
 
 
