@@ -190,18 +190,33 @@ footer{
     margin-top: 0%;
     margin-left: 2em;
     background-color:lightgrey;
-    border-radius: 3em;
+    border-radius: 2em;
     overflow: hidden;
+}
+.geleendecontainer {
+
+}
+
+.geleendeboeken {
+
 }
 
 
+.geleendeboek {
 
 
-.text{
-align-content: center;
-text-align: center;
-margin-top: 2em;
-font-size: 25px;
+}
+
+.inleverdatum {
+
+}
+
+
+.text {
+    align-content: center;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 25px;
 
 }
 
@@ -211,23 +226,34 @@ font-size: 25px;
     margin-top: 1em;
     margin-left: 2em;
     background-color: lightgrey;
-    border-radius: 3em;
+    border-radius: 2em;
 }
 
 .e-books {
     height: 10em;
     width: 26em;
     margin-top: 1em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    background-color: lightgrey;
+    border-radius: 2em;
+
+}
+
+.geschiedenis{
+    height: 10em;
+    width: 26em;
+    margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 2em;
     background-color: lightgrey;
-    border-radius: 3em;
+    border-radius: 2em;
 
 }
 
 
 /* medium scherm */
-@media screen and (min-width: 590px) {
+@media screen and (min-width: 600px) {
  
 header{
     grid-area: header;
@@ -267,21 +293,31 @@ header{
 
 
  .boekreservering {
-     height: 10em;
+     height: 22.2em;
      width: 26em;
-     margin-top: 1em;
+     margin-top: 0%;
      margin-left: 2em;
      border-radius: 3em;
  }
 
  .e-books {
-     height: 10em;
+     height: 5em;
      width: 26em;
      margin-top: 1em;
      margin-bottom: 1em;
      margin-left: 2em;
      border-radius: 3em;
  }
+ 
+ .geschiedenis {
+     height: 5em;
+     width: 26em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 2em;
+     background-color: lightgrey;
+     border-radius: 3em;
+
  }
 
  .geleendecontainer {
@@ -309,6 +345,7 @@ header{
      font-size: 16px;
      margin-left: 1em;
      margin-top: 0%;
+    
  }
 
  .text {
@@ -318,7 +355,7 @@ header{
      font-size: 25px;
      color: rgb(0, 0, 0);
  }
- 
+}
 
 
 /* groot scherm */
@@ -329,7 +366,7 @@ header{
      width: 26em;
      margin-top: 1em;
      margin-left: 2em;
-     border-radius: 3em;
+     border-radius: 2em;
      overflow: hidden;
 
 }
@@ -347,7 +384,7 @@ header{
      width: 26em;
      margin-top: 1em;
      margin-left: 2em;
-     border-radius: 3em;
+     border-radius: 2em;
  }
 
  .e-books {
@@ -356,7 +393,7 @@ header{
      margin-top: 1em;
      margin-bottom: 1em;
      margin-left: 2em;
-     border-radius: 3em;
+     border-radius: 2em;
  }
 
 }
