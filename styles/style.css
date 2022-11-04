@@ -35,7 +35,7 @@ section{
     display: flex;
     color: white;
     background-color: red;
-    border: 1.5px solid white;
+    border: 1.5px solid rgb(255, 0, 0);
     border-radius: 2em;
     margin-top: 0.5em;
 }
@@ -47,6 +47,9 @@ section{
     background-color:red;
     border: 1.5px solid white;
     border-radius: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+
 
 }
 
@@ -207,12 +210,12 @@ footer{
 
 
 .geleendeboek {
-
+content-visibility: hidden;
 
 }
 
 .inleverdatum {
-
+content-visibility: hidden;
 }
 
 
@@ -296,6 +299,16 @@ header{
  }
 
 
+ .geleendeboek {
+     content-visibility: visible;
+
+ }
+
+ .inleverdatum {
+     content-visibility: visible;
+ }
+
+
  .boekreservering {
      height: 22.2em;
      width: 26em;
@@ -365,6 +378,15 @@ header{
 /* groot scherm */
 @media screen and (min-width: 1400px){
 
+.geleendeboek {
+        content-visibility: visible;
+
+    }
+
+    .inleverdatum {
+        content-visibility: visible;
+    }
+    
 .boekreservering {
      height: 22.2em;
      width: 26em;
