@@ -107,6 +107,7 @@ p {
 .titelaan {
     margin-left: 6em;
     margin-top: 0;
+    padding-top: 1em;
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
@@ -177,6 +178,9 @@ p {
     right: 0;
 }
 
+.ctrl-btn:hover{
+background-color: rgba(143, 143, 143, 0.377);
+}
 
 footer{
     grid-area: footer;
@@ -362,7 +366,7 @@ header{
 @media screen and (min-width: 1400px){
 
 .boekreservering {
-     height: 10em;
+     height: 22.2em;
      width: 26em;
      margin-top: 1em;
      margin-left: 2em;
@@ -379,7 +383,7 @@ header{
      overflow-x: scroll;
      overflow-y: hidden;
  }
- .boekreservering {
+ .e-books {
      height: 10em;
      width: 26em;
      margin-top: 1em;
@@ -387,7 +391,7 @@ header{
      border-radius: 2em;
  }
 
- .e-books {
+ .geschiedenis {
      height: 10em;
      width: 26em;
      margin-top: 1em;
@@ -396,4 +400,32 @@ header{
      border-radius: 2em;
  }
 
+}
+/*big big screen*/
+@media screen and (min-width: 1400px){
+    
+ .slider {
+    width: 100em;
+    height: 200px;
+    position: relative;
+    margin: 2em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.e-books {
+    height: 22.2em;
+    width: 26em;
+    margin-top: 1em;
+    margin-left: 2em;
+    border-radius: 2em;
+}
+
+.geschiedenis {
+    height: 10em;
+    width: 26em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    border-radius: 2em;
+}
 }
