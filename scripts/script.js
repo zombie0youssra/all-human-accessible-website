@@ -1,4 +1,3 @@
-"use strict";
 
 productScroll();
 
@@ -6,7 +5,6 @@ function productScroll() {
   let slider = document.getElementById("slider");
   let next = document.getElementsByClassName("pro-next");
   let prev = document.getElementsByClassName("pro-prev");
-  let slide = document.getElementById("slide");
   let item = document.getElementById("slide");
 
   for (let i = 0; i < next.length; i++) {
