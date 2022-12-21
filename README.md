@@ -7,12 +7,12 @@
  mobile
  <img width="123" alt="image" src="https://user-images.githubusercontent.com/112857270/208871677-3a37c826-38c7-4236-aa49-bd0ba56500b1.png">
 
-##tools
+## tools
 
 
-##vormgeving
+## vormgeving
 
 
-##testen
+## testen
 
 
